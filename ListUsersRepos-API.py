@@ -21,4 +21,5 @@ data = response.json()
 realname = data["name"]
 
 print("Public Repositories for " + username + "(" + realname + "):")
+print("Number of Public Repos: ", data["public_repos"])
 print(repo_names)
